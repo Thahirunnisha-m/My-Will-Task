@@ -1,0 +1,142 @@
+/* Body background */
+body {
+    background-color: #f7f7f7;
+    font-family: 'Segoe UI', sans-serif;
+    cursor: pointer;
+  }
+  
+  /* Main section background */
+  .main-section {
+    background-color: orangered;
+  }
+  
+  /* Search box */
+  .search-box {
+    width: 200px;
+  }
+  
+  /* Icon styling */
+  .icon-circle {
+    background-color: white;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+  }
+  
+  /* Card containers */
+  .card-white,
+  .container-box {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    height: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Circle profile image */
+  .circle-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* Left section profile layout */
+  .image-text-wrap {
+    align-items: center;
+  }
+  
+  /* Mid-cards (inside left container) */
+  .mid-card {
+    background-color: orangered;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  /* Mid-card headings */
+  .mid-card h3 {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Custom buttons (left container) */
+  .btn-custom {
+    background-color: orangered;
+    color:black;
+    font-weight: bold;
+    border: none;
+    transition: 0.3s;
+    width: 100%;
+    border: 3px solid black;
+  }
+  
+  .btn-custom:hover {
+    background-color: orange;
+    color: black;
+    border: 3px solid black;
+  }
+  
+  /* Right card titles */
+  .card-title.text-orange {
+    color: orangered;
+    font-weight: bold;
+  }
+  
+  /* View Invitation Button */
+  .btn-invite {
+    background-color: orangered;
+    color: black;
+    font-weight: bold;
+    border: 3px solid black;
+    transition: 0.3s;
+    padding: 10px 25px;
+    border-radius: 5px;
+  }
+  
+  .btn-invite:hover {
+    background-color: orange;
+    color: white;
+    border: 3px solid black;
+  }
+  
+  /* Responsive Fix */
+  @media (max-width: 768px) {
+    .main-section {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .search-box {
+      width: 100%;
+    }
+  
+    .image-text-wrap {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .btn-custom {
+      width: 100%;
+    }
+  
+    .icon-circle {
+      width: 40px;
+      height: 40px;
+      font-size: 16px;
+    }
+  
+    .mid-card {
+      margin-bottom: 10px;
+    }
+  }
+  
